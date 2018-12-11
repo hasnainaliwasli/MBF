@@ -1,8 +1,8 @@
-About:
-# multi-bruteforce-facebook
-# author Pirmansx
-# dragonfly zombie team
-# uploaded by Ahlyab zuse
+# About:
+Multi-bruteforce-facebook
+Author Pirmansx
+Dragonfly zombie team
+Uploaded by Ahlyab zuse
 
 # Usage:
 
@@ -24,5 +24,7 @@ python2 MBF.py
 
 # Disclaimer:
 I just want to say that do not use this tool for illegal purpose
+
 I'm not responsible for your actions.
+
 Enjoy :)
