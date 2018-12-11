@@ -1,14 +1,20 @@
+About:
 # multi-bruteforce-facebook
-# author pirmansx
+# author Pirmansx
 # dragonfly zombie team
-# language python 2
+# uploaded by Ahlyab zuse
 
-Cara gunakan:
-python2 MBF.py
-module ekstra
+Usage:
+apt update
+apt upgrade -y
+pkg install python 2 -y
+pkg install git -y
+git clone https://github.com/Ahlyab/MBF.git
 pip2 install mechanize
+cd MBF
+python2 MBF.py
 
-
-I just want say do not use this tool for illegal purpos
-Jika ada bug silah kan beritahu saya....
-Jika ada saran silah kan beritahu saya
+Disclaimer:
+I just want to say that do not use this tool for illegal purpose
+I'm not responsible for your actions.
+Enjoy :)
