@@ -5,7 +5,7 @@ Author Pirmansx
 
 Dragonfly zombie team
 
-Uploaded by Ahlyab zuse
+Uploaded & translated by Ahlyab zuse
 
 
 # Usage:
