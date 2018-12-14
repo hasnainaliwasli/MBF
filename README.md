@@ -8,7 +8,7 @@ Dragonfly zombie team
 Uploaded & translated by Ahlyab zuse
 
 
-# Usage:
+# installation & usage:
 
 apt update
 
