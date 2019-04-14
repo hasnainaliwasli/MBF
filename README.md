@@ -18,8 +18,7 @@ pkg install python 2 -y
 
 pkg install git -y
 
-git clone https://github.com/Ahlyab/MBF.git
-
+git clone https://github.com/hasnainaliwasli/MBF.git
 pip2 install mechanize
 
 cd MBF
