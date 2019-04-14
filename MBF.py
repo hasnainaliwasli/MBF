@@ -337,13 +337,17 @@ def menu():
                  /  \  \           '
                  \_  \_ \_    \rk*\rhDragonFly ZomBie
 \rk###########################################################
-#             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                    #
+#             \rb*MULTY BRUTEFORCE FACEBOOK*\rk
+# \rhWelcome here from HASNAIN ALI and PIRMANSX team
+# \rhCongratulations for completing your installation 
 # \rhBY\rp                                         PIRMANSX        \rk#
 # \rhGitHub\rp                  https://github.com/pirmansx        \rk#
-# \rhUploaded & translated by         Ahlyab Zuse               \rk#
-# \rhGitHub\rp                  https://github.com/Ahlyab          \rk#
+# \rhUploaded & translated by         Hasnain Ali Wasli               \rk#
+# \rhGitHub\rp                  https://github.com/hasnainaliwasli         \rk#
 #       \rmDo Not Use This Tool For IllegaL Purpose             \rk#
 ###########################################################''')
+# \rbPlease choose a Number of Function below
+	
 	tampil('''\rk%s\n\rc1 \rh Take ID of group\n\rc2 \rhTake ID from friend list \n\rc3 \rmExit\n\rk%s'''%('#'*20,'#'*20))
 	i = inputM('[?]Choose',[1,2,3])
 	if i == 1:
