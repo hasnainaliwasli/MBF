@@ -103,7 +103,7 @@ def open(d):
 		return x
 def login():
 	global log
-	us = inputD('[?]Email/HP')
+	us = inputD('[?]Email/HP/Number')
 	pa = inputD('[?]Password')
 	tampil('\rh[*]login in....')
 	open('https://m.facebook.com')
@@ -120,7 +120,7 @@ def login():
 		tampil('\rh[*] Welcome \rk%s\n\rh[*]Hope This is your Lucky Day'%nama)
 		log = 1
 	elif 'checkpoint' in url:
-		tampil('\rm[!]Akun kena checkpoint\n\rk[!]Coba Login dengan opera mini')
+		tampil('\rm[!]checkpoint account hit\n\rk[!]Try to log in with opera mini')
 		Exit()
 	else:
 		tampil('\rm[!]Login Failed')
@@ -239,7 +239,7 @@ def crack(d):
 			i = i.replace('\n','')
 			if len(i) != 0:
 				crack0(d,i,0)
-		i = inputD('[?]Not Satisfied with Results, Want to try again(y/n)',['Y','N'])
+		i = inputD('[?]Not Satisfied with Results, Want to try again?(y/n)',['Y','N'])
 		if i.upper() == 'Y':
 			return crack(d)
 		else:
@@ -298,7 +298,7 @@ def crack0(data,sandi,p):
 	tampil('\rk[*]Number of Verification Account\rp  %d'%len(akun_cekpoint))
 	tampil('\rc[*]Number of Accounts error\rp           %d'%len(akun_error))
 	if p:
-		i = inputD('[?]You wanna try again(y/n)',['Y','N'])
+		i = inputD('[?]You wanna try again?(y/n)',['Y','N'])
 		if i.upper() == 'Y':
 			return crack(data)
 		else:
